@@ -17,3 +17,4 @@ Zusätzlich versteckt sich das Tool unauffällig in der Taskleiste neben der Uhr
 Dort findest du ein kleines Symbol, über das du mit der rechten Maustaste die Animation jederzeit
 testen oder das Programm beenden kannst. Es ist also eine einfache, aber sehr elegante Lösung,
 um den Ladestatus deines Geräts immer im Blick zu haben,ohne danach suchen zu müssen.
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/98a780dd-8d98-4596-9908-715ba4214ce0" />
