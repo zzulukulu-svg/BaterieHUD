@@ -15,10 +15,6 @@
 
 using namespace Gdiplus;
 
-// ============================================================================
-// KONFIGURATION
-// ============================================================================
-
 namespace Config {
     constexpr int HUD_SIZE = 350;
     constexpr int ANIM_FRAMES = 30;
@@ -28,15 +24,10 @@ namespace Config {
     constexpr wchar_t WINDOW_CLASS[] = L"BatteryHUDClass";
 }
 
-// Tray Icon IDs
 #define WM_TRAYICON (WM_USER + 1)
 #define IDM_EXIT 1001
 #define IDM_TEST 1002
 #define TRAY_ICON_ID 1
-
-// ============================================================================
-// HUD STATE
-// ============================================================================
 
 struct HUDState {
     bool isVisible = false;
@@ -63,10 +54,6 @@ struct HUDState {
     }
 };
 
-// ============================================================================
-// HILFSFUNKTIONEN
-// ============================================================================
-
 namespace Utils {
     inline float EaseOutBack(float t) {
         constexpr float c1 = 1.70158f;
@@ -90,10 +77,6 @@ namespace Utils {
         return true;
     }
 }
-
-// ============================================================================
-// RENDERING
-// ============================================================================
 
 class HUDRenderer {
 public:
@@ -210,10 +193,6 @@ private:
     }
 };
 
-// ============================================================================
-// TRAY ICON
-// ============================================================================
-
 class TrayIconManager {
 public:
     static void Create(HWND hwnd) {
@@ -252,10 +231,6 @@ public:
         DestroyMenu(hMenu);
     }
 };
-
-// ============================================================================
-// WINDOW PROCEDURE
-// ============================================================================
 
 HUDState g_hud;
 HUDRenderer g_renderer;
@@ -338,12 +313,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     return 0;
 }
 
-// ============================================================================
-// MAIN
-// ============================================================================
-
 int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR, int) {
-    // Einfache Einzelinstanz-Prüfung (weniger verdächtig als globaler Mutex)
     HWND existing = FindWindowW(Config::WINDOW_CLASS, nullptr);
     if (existing) {
         MessageBoxW(nullptr, L"Battery HUD läuft bereits!", L"Info", MB_OK | MB_ICONINFORMATION);
