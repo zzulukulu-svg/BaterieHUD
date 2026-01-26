@@ -485,4 +485,5 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR, int) {
     GdiplusShutdown(gdiplusToken);
 
     return static_cast<int>(msg.wParam);
+
 }
