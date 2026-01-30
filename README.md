@@ -19,5 +19,5 @@ testen oder das Programm beenden kannst. Es ist also eine einfache, aber sehr el
 um den Ladestatus deines Geräts immer im Blick zu haben,ohne danach suchen zu müssen.
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/98a780dd-8d98-4596-9908-715ba4214ce0" />
 <img width="1919" height="1072" alt="Screenshot 2026-01-22 175736" src="https://github.com/user-attachments/assets/df3939e3-c134-48b4-bda4-e89c98200aff" />
-<img width="199" height="104" alt="image" src="https://github.com/user-attachments/assets/170dc3f4-5489-48f9-a397-4c1ea1e72cce" />
+<img width="305" height="218" alt="image" src="https://github.com/user-attachments/assets/e25a1361-f53b-4b51-91ed-5061b6e48d40" />
 <img width="448" height="330" alt="image" src="https://github.com/user-attachments/assets/eaf86074-3bd3-44f2-86c2-e2e7e029d851" />
