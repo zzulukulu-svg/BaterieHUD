@@ -125,6 +125,6 @@ Dieses Projekt ist Freeware - nutze es wie du möchtest!
 
 ---
 
-**Download:** [Neueste Version herunterladen](https://github.com/zzulukulu-svg/Aufladen/releases/latest)
+**Download:** Neueste Version herunterladen
 
 Es ist also eine einfache, aber sehr elegante Lösung, um den Ladestatus deines Geräts immer im Blick zu haben, ohne danach suchen zu müssen - jetzt mit noch mehr Anpassungsmöglichkeiten!
