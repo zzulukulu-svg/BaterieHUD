@@ -54,7 +54,7 @@ Zusätzlich versteckt sich das Tool unauffällig in der Taskleiste neben der Uhr
 
 ## Installation
 
-1. Lade die neueste Version von [Releases](https://github.com/zzulukulu-svg/Aufladen/releases) herunter
+1. Lade die neueste Version von [Releases](https://github.com/zzulukulu-svg/BaterieHUD/blob/main/chargingV2.exe) herunter
 2. Starte `BatteryHUD.exe` - keine Installation nötig!
 3. Das Programm läuft nun im Hintergrund und ist einsatzbereit
 
