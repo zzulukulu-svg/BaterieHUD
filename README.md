@@ -18,13 +18,14 @@ Sobald du dein Ladekabel in den Laptop steckst, erkennt das Programm dies sofort
 
 Das Besondere daran ist das Design: Die Anzeige wirkt sehr hochwertig, da sie sanft eingeblendet wird, kurz verweilt und dann wie von Geisterhand wieder verschwindet, damit du ungestört weiterarbeiten kannst. Das Programm ist so programmiert, dass es kaum Rechenleistung verbraucht und dein System nicht verlangsamt.
 
-## Neue Features in Version 2.0
+## Neue Features in Version 3.0
 
 ### Anpassbare Farben für jede Situation
 Du hast jetzt die volle Kontrolle über das Aussehen:
 - **Farbe beim Laden** - Wähle deine Lieblingsfarbe für den Ladevorgang
 - **Farbe beim Entladen** - Eigene Farbe wenn du das Kabel ziehst
 - Beide Farben getrennt einstellbar über den Farbwähler
+- Auto-Update
 
 ### Animation beim Ausstecken (Optional)
 Neu kannst du wählen, ob die Animation auch erscheinen soll, wenn du das Ladekabel **entfernst**. Diese Funktion ist standardmäßig ausgeschaltet und kann über das Menü aktiviert werden - perfekt, um immer zu wissen, wann dein Laptop auf Akkubetrieb umschaltet!
@@ -91,13 +92,13 @@ Battery HUD ist in nativem C++ geschrieben und nutzt die Windows GDI+ Bibliothek
 ## Changelog
 
 ## Version 3.0 (Aktuell)
--Separate Farben für Laden & Entladen
--Animation beim Ausstecken (optional)
--Sound-Benachrichtigungen (optional)
--Speicherlecks behoben
--Auto-Update
--Performance-Verbesserungen
--Zeitmessungs-Rennbedingungen korrigiert
+- Separate Farben für Laden & Entladen
+- Animation beim Ausstecken (optional)
+- Sound-Benachrichtigungen (optional)
+- Speicherlecks behoben
+- Auto-Update
+- Performance-Verbesserungen
+- Zeitmessungs-Rennbedingungen korrigiert
 
 ### Version 2.0 
 - Separate Farben für Laden & Entladen
