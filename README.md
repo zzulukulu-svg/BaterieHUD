@@ -90,7 +90,16 @@ Battery HUD ist in nativem C++ geschrieben und nutzt die Windows GDI+ Bibliothek
 
 ## Changelog
 
-### Version 2.0 (Aktuell)
+## Version 3.0 (Aktuell)
+-Separate Farben für Laden & Entladen
+-Animation beim Ausstecken (optional)
+-Sound-Benachrichtigungen (optional)
+-Speicherlecks behoben
+-Auto-Update
+-Performance-Verbesserungen
+-Zeitmessungs-Rennbedingungen korrigiert
+
+### Version 2.0 
 - Separate Farben für Laden & Entladen
 - Animation beim Ausstecken (optional)
 - Sound-Benachrichtigungen (optional)
